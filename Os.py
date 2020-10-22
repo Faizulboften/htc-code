@@ -59,9 +59,12 @@ class call():
                 'Cookie': f'PHPSESSID={r}'}
                 rq=requests.get(f'https://id.jagreward.com/member/verify-mobile/{self.number}/', headers=ua).text
 try:
-    print('\033[34;1m╰(◣﹏◢)╯ Spam Call\n\033[36;1mCreated By Tegar ID\n\033[32;1mYT Dunia Kode')
+    print('
+░█▀▀█ █▀▀█ █── █── 
+░█─── █▄▄█ █── █── 
+░█▄▄█ ▀──▀ ▀▀▀ ▀▀▀')
     call()
-    print('\n\033[00mSelesai.')
+    print('\n\033[37.1m[●]Done.')
     while True :
          pilih=input('\033[00mCoba Lagi?(y/t):')
          if pilih == 'y':
