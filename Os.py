@@ -59,10 +59,10 @@ class call():
                 'Cookie': f'PHPSESSID={r}'}
                 rq=requests.get(f'https://id.jagreward.com/member/verify-mobile/{self.number}/', headers=ua).text
 try:
-    print('
-░█▀▀█ █▀▀█ █── █──  \033[34;1m|-------------------------|
-░█─── █▄▄█ █── █──  \033[34;1m| \033[37;1mAuthor :Faizul|
-░█▄▄█ ▀──▀ ▀▀▀ ▀▀▀  \033[34;1m|-------------------------|')
+    
+print('░█▀▀█ █▀▀█ █── █──  \033[34;1m|-------------------------|')
+print('░█─── █▄▄█ █── █──  \033[34;1m| \033[37;1mAuthor :Faizul|')
+print('░█▄▄█ ▀──▀ ▀▀▀ ▀▀▀  \033[34;1m|-------------------------|')
     call()
     print('\n\033[37.1m[●]Done.')
     while True :
